@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14E31C12BF4F24A00133538 /* BookFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14E31C02BF4F24A00133538 /* BookFetcher.swift */; };
 		C1AFA6E12BF3952D001C5E6E /* NetNovelPushedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFA6E02BF3952D001C5E6E /* NetNovelPushedApp.swift */; };
 		C1AFA6E32BF3952D001C5E6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFA6E22BF3952D001C5E6E /* ContentView.swift */; };
 		C1AFA6E52BF3952E001C5E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AFA6E42BF3952E001C5E6E /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C14E31C02BF4F24A00133538 /* BookFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFetcher.swift; sourceTree = "<group>"; };
+		C1737B032C7B88B10018A0A9 /* NetNovelPushed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetNovelPushed.entitlements; sourceTree = "<group>"; };
 		C1AFA6DD2BF3952D001C5E6E /* NetNovelPushed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetNovelPushed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AFA6E02BF3952D001C5E6E /* NetNovelPushedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetNovelPushedApp.swift; sourceTree = "<group>"; };
 		C1AFA6E22BF3952D001C5E6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 		C1AFA6D42BF3952D001C5E6E = {
 			isa = PBXGroup;
 			children = (
+				C14E31C02BF4F24A00133538 /* BookFetcher.swift */,
 				C1AFA6DF2BF3952D001C5E6E /* NetNovelPushed */,
 				C1AFA6DE2BF3952D001C5E6E /* Products */,
 			);
@@ -51,6 +55,7 @@
 		C1AFA6DF2BF3952D001C5E6E /* NetNovelPushed */ = {
 			isa = PBXGroup;
 			children = (
+				C1737B032C7B88B10018A0A9 /* NetNovelPushed.entitlements */,
 				C1AFA6E02BF3952D001C5E6E /* NetNovelPushedApp.swift */,
 				C1AFA6E22BF3952D001C5E6E /* ContentView.swift */,
 				C1AFA6E42BF3952E001C5E6E /* Assets.xcassets */,
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14E31C12BF4F24A00133538 /* BookFetcher.swift in Sources */,
 				C1AFA6E32BF3952D001C5E6E /* ContentView.swift in Sources */,
 				C1AFA6E12BF3952D001C5E6E /* NetNovelPushedApp.swift in Sources */,
 			);
@@ -269,9 +275,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NetNovelPushed/NetNovelPushed.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NetNovelPushed/Preview Content\"";
+				DEVELOPMENT_TEAM = 84TSVXV4Q5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,6 +287,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,9 +306,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NetNovelPushed/NetNovelPushed.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NetNovelPushed/Preview Content\"";
+				DEVELOPMENT_TEAM = 84TSVXV4Q5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,6 +318,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
